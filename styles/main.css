@@ -1,0 +1,52 @@
+#martins-header {
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.766);
+    color: rgb(165, 159, 122);
+    text-align: center;
+}
+
+
+.martinsFishContainer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+    width: 60%;
+}
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+} */
+aside {
+    width: 40%;
+    float: right;
+    padding: 40px;
+    color: rgb(216, 114, 114);
+    background-color: rgb(71, 64, 56);
+
+}
+.fish-card {
+    width: 125px;
+    border: 2px black dotted;
+}
+/* .fish-list{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+#obx {
+    display: flex;
+}
+
+.fishList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 5px;
+}
+.tips-list {
+    list-style-type: none;
+    background-color: rgb(250, 222, 227);
+    margin: 0px;
+}
