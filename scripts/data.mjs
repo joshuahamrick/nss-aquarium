@@ -232,7 +232,50 @@ const database = {
     { id: 3, fishCareTips: "Clean the aquarium at least once a week." },
     { id: 4, fishCareTips: "Provide proper filtration for the tank." },
     { id: 5, fishCareTips: "Monitor fish behavior for signs of illness." }
+    ],
+    martinsLocations: [
+      {
+        "id": 1,
+        "fish_species": "Rainbow Trout",
+        "location": "Mountain Stream"
+      },
+      {
+        "id": 2,
+        "fish_species": "Bass",
+        "location": "Freshwater Lake"
+      },
+      {
+        "id": 3,
+        "fish_species": "Salmon",
+        "location": "Ocean"
+      },
+      {
+        "id": 4,
+        "fish_species": "Catfish",
+        "location": "River"
+      },
+      {
+        "id": 5,
+        "fish_species": "Yellow Perch",
+        "location": "Pond"
+      },
+      {
+        "id": 6,
+        "fish_species": "Walleye",
+        "location": "Deep Lake"
+      },
+      {
+        "id": 7,
+        "fish_species": "Bluegill",
+        "location": "Shallow Creek"
+      },
+      {
+        "id": 8,
+        "fish_species": "Trout",
+        "location": "Highland Lake"
+      }
     ]
+    
 };
 
 
@@ -244,4 +287,8 @@ export const getFish = () => {
 
 export const getTips = () => {
   return database.martinsTips.map(tip => ({...tip}))
+}
+
+export const getLocations = () => {
+  return database.martinsLocations.map(location => ({...location}))
 }

@@ -40,7 +40,7 @@ aside {
 .fishList {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
     align-items: center;
     padding: 15px 5px;
@@ -49,4 +49,34 @@ aside {
     list-style-type: none;
     background-color: rgb(250, 222, 227);
     margin: 0px;
+    padding: 20px ;
+}
+
+.tip {
+    margin: 15px 0px;
+    font-size: 19px;
+    color: rgb(1, 150, 1);
+}
+
+#locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-around;
+  flex-wrap: wrap;
+  gap: 70px;
+  background-color: rgb(84, 115, 84);
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.locationCard {
+    width: 125px;
+    border: 2px black dotted;
+    padding: 50px;
+    background-color: rgb(247, 184, 195);
+}
+
+.locationCard h2 {
+    font-size: 25px;
 }
